@@ -1,0 +1,28 @@
+Sonic Pi Task 3
+
+3.1. Record your own sample and play it in additional live_loop next to Task 2 loops.
+You can simple drag&drop recorded file to a Sonic Pi - path to a file will be added automatically.
+Add effects on top of it.
+e.g.     sample "/Users/laura/Documents/sonic-pi/records/folk.wav"
+
+
+3.2 Add live_audio with some effect on top of it and SING!
+with_fx :slicer do
+  live_audio :singing, amp: 9
+end
+
+Tip 1: If yore not using headphones, for this task it is crucial
+Tip 2: Use reverb effect - everyone sounds great with this one, believe me and science:
+https://acousticengineering.wordpress.com/2014/01/10/why-does-music-sound-better-with-reverb/
+
+
+3.3 Modernise Lithuanian Folk song using:
+https://github.com/laurasilvanavi/sonic-pi-notes/blob/master/lithuanian-folk-song.sonic-pi
+Some inspiration might come from: https://youtu.be/hqWIdaAjdmI?t=1986
+
+
+3.4 Run static version of Lithuanian Folk song: https://github.com/laurasilvanavi/sonic-pi-notes/blob/master/lithuanian-folk-song-static.sonic-pi. Why iterators are needed here? To update the music without any of your additional modification, you need to run the program and you might go for a coffee - you will hear the difference! But do not forget to stop the program afterwards :)
+
+
+3.5 Create your own song! Use previous samples, add random notes, recreate your favourite song or your country folk song - does not matter until it is fun for you!  Additional notes: https://github.com/laurasilvanavi/sonic-pi-notes/blob/master/gangstas-paradise.sonic-pi Additional examples: https://sonic-pi.net/tutorial  ***Check documentation and tutorials inside Sonic Pi itself by opening Help tool. It is very well written!
+***Send ✅ in our Zoom chat when you finished your all experiments and would like to share your masterpiece with others.

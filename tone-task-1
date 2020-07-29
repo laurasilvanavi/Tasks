@@ -1,0 +1,34 @@
+Tone Task 1  (follow dev/step1 and dev/step2 branches on: https://github.com/laurasilvanavi/music-app/tree/dev/step1)
+
+1.1 Create new Angular appliacation:
+npm install -g @angular/cli
+ng new best-app-i-ever-created-in-my-life
+
+Install tone.js library:
+cd best-app-i-ever-created-in-my-life
+npm install tone
+
+Serve your application (do not stop serving during all tasks, changes will be detected automatically):
+ng serve
+
+Result should be visible on http://localhost:4200/
+
+
+
+1.2 Generate additional component:
+ng generate component instrument
+
+Remove marked placeholder in app.component.html and include new component to app.component.html. You should see “instrument works!” in a browser.
+
+
+
+1.3 Using ngFor Angular directive add buttons in instrument.component.html which trigger a function to play each note.
+
+
+
+1.4 Optional. Yes, you didnt come to a frontend lecture today, but maybe want to add some stylings? For this demo use version: ng add @angular/material@8
+https://material.angular.io/guide/getting-started
+
+
+
+***Send ✅ in our Zoom chat when you finished your all experiments and would like to move further.

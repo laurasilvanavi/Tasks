@@ -1,0 +1,22 @@
+Gibber Task 3
+
+3.1 Create Synth, Mono, FM or Pluck synthesizer.
+E.g. p = Pluck()
+Run the program. Do you hear anything? You should not, because you just initialised a synthesizer.
+
+3.2 Describe notes to play with previously created synthesizer. Run the program. 
+E.g. p.note(600)
+After note modification rerun the program. 
+
+3.3 Create Sample based synthesizer SoundFont. Provide based sample during initialisation from:
+https://github.com/gibber-cc/gibber/blob/master/docs/input/audio/soundfont.md. 
+Describe notes and run the program.
+E.g. c = SoundFont('cello')
+     c.note(600)
+
+3.4 Play these melodies by changing frequencies like:
+A: 330 -> 330 -> 330 -> 330 -> 330 - > 330 -> 330 -> 390 -> 260 -> 290 -> 330
+B: 245 -> 325 -> 385 -> 365 -> 325 -> 385 -> 325 -> 365 -> 325 -> 255 -> 290 -> 245 
+From what songs are these music fragments? Write your answers in our Zoom chat.
+
+***Send ✅ in our Zoom chat when you finished your all experiments and would like to move further.

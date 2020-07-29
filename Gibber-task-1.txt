@@ -1,0 +1,6 @@
+Gibber Task 1.
+Create objects of Sine, Square, Triangle and Saw oscillators and run the program with [Ctrl + Enter].
+Stop the program with [Ctrl + .] .
+
+***What are oscillators and what sound to expect: https://www.perfectcircuit.com/signal/difference-between-waveforms#:~:text=DEFINITION%3A%20A%20triangle%20wave%20contains,wave%20and%20a%20sine%20wave. If your created oscillator starts meowing… hm… you need to worry… or patent it.
+***Send ✅ in our Zoom chat when you finished your all experiments and would like to move further.

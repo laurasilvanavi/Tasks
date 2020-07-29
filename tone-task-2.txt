@@ -1,0 +1,11 @@
+Tone task 2 (for more details follow: https://medium.com/better-programming/frontend-development-sounds-9fe7e5839ab9)
+
+2.1 Create an instrument with your chosen sound.
+Follow dev/step3 branch on: https://github.com/laurasilvanavi/music-app/tree/dev/step3
+
+
+2.2 Add your favorite music fragments with additional instruments from Dogiano instrument or create your own.
+Follow dev/step6 branch on: https://github.com/laurasilvanavi/music-app/tree/dev/step6
+
+
+***Send ✅ in our Zoom chat when you finished your all experiments and would like to share your masterpiece with others.

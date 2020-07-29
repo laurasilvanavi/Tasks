@@ -1,0 +1,25 @@
+Task 5
+
+5.1 Create several different synthesizers to play melody and bass parts using:
+https://github.com/laurasilvanavi/gibber-notes/blob/master/another-one-bites-the-dust.gibber
+
+5.2 Add drums.
+E.g. k = EDrums('x.x.xxo*', 1/8);
+
+5.3 Add effects on synthesizers like:
+mono = Mono({attack: 0.01, decay: 0.25});
+mono.play(melodyNotes, melodyTimes);
+d = Delay()
+mono.fx.add(d)
+
+You can remove effects afterwards like:
+mono.fx.remove(d)
+
+5.3 Import speaking lib and say something nice as:
+module( 'gibber/publications/SpeakLib' )
+Speak().say('This workshop is awesome but it would be great to have a coffee break!', 0.6)
+
+5.4 Change notes (randomly or not), add SoundFont instruments, crash and burn everything until you reach what you like.
+Or at least you reach some interesting sounds. 
+
+***Send ✅ in our Zoom chat when you finished your all experiments and would like to share your masterpiece with others. 

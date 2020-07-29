@@ -1,0 +1,5 @@
+Magenta Task 2 
+Create new melodies using MusicVAE from Magenta.js.
+Follow dev/step9 branch: https://github.com/laurasilvanavi/music-app/tree/dev/step9
+
+***Send ✅ in our Zoom chat when you finished your all experiments and would like to move further.

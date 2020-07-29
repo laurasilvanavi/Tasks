@@ -1,0 +1,16 @@
+Gibber Task 2.
+2.1 Create oschillator object with custom frequency and amplitude values during initialisation. Run the program.
+E.g. Sine({frequency: 600, amp: 0.4})
+
+2.2 Assign created oscillator to multiple letters variable. Run the program.
+E.g. sine = Sine({frequency: 600, amp: 0.4})
+Without stopping the program change values of frequency and amplitude and rerun the program. The previous sound should not be changed, but new one is added.
+
+2.4 Assign created oscillator to one letter variable. Run the program.
+E.g. s = Sine({frequency: 600, amp: 0.4}) Without stopping the program change values of frequency and amplitude and rerun the program. The previous sound should be changed. 
+2.5 Assign default oscillator to one letter variable. Run the program. E.g. s = Sine() Without stopping the program modify frequency and amplitude properties after initialisation. Run modifications one by one by leaving the cursor on a line with modifications and pressing [Ctrl + Enter] or together by marking those lines and pressing [Ctrl + Enter]. E.g. s.frequency = 600 E.g. s.amp = 0.4
+
+2.6 Run only modification of frequency without previously running initialisation of an oscillator. Do you see an error? Send in our Zoom chat what error do you get?
+
+2.7 A bit of extra magic. Assign default oscillator to one letter variable. Run the program. E.g. s = Sine() Without stopping the program remove previously written line. Yes, you read correctly, remove it and run added frequency modification instead. E.g. s.frequency = 600 Do you see an error? You should not!  ***Change initialisation of different oscillators (Sine, Saw, Square, Triangle) that your neighbours would not get bored!  ***Of course check how ‘out-of-range’ values may sound like.
+***Send ✅ in our Zoom chat when you finished your all experiments and would like to move further.

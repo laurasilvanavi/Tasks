@@ -1,0 +1,34 @@
+Sonic Pi Task 1
+
+1.1. Play Tubular Bells song notes from:
+https://github.com/laurasilvanavi/sonic-pi-notes/blob/master/tubular-bells.sonic-pi
+E.g. play_pattern_timed notes, times, amp: 0.2
+
+
+1.2. Change default synthesizer.
+E.g. use_synth :tech_saws
+
+
+1.3. Add few samples.
+E.g. sample :drum_bass_soft
+
+
+1.4. Add effects on all sounds.
+E.g.
+with_fx :slicer do
+  play_pattern_timed [100, 90], [1, 0.5]
+end
+
+
+1.5 Play Spanish Flea from:
+https://github.com/laurasilvanavi/sonic-pi-notes/blob/master/spanish-flea.sonic%20pi
+Rerun the program with updated BPM.
+
+
+1.6 Play Comptine d'Un Autre Ete song from:
+https://github.com/laurasilvanavi/sonic-pi-notes/blob/master/comptine-dun-autre-ete.sonic-pi.
+Rerun the program with different parameters provided to a function.
+
+
+***Check documentation and tutorials inside Sonic Pi itself by opening Help tool. It is very well written!
+***Send ✅ in our Zoom chat when you finished your all experiments and would like to move further.

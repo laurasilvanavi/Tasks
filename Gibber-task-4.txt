@@ -1,0 +1,20 @@
+Gibber Task 4
+
+4.1 Recreate “Another one bites the dust” song using notes and times like:
+s = Synth('bleep')
+s.play(['e3', 'e3', 'e3', 'e3', 'e3', 'e3', 'g3', 'e3', 'a3'], [0.25, 1/4, 0.45, 1/16, 1/8, 1/8, 1/8, 1/16, 0.55])
+
+4.2 Reuse same notes and times for 2 other synthesizers.
+
+4.5 Add Drums with defined beat by using characters:
+x : kick drum hit
+o : snare drum hit
+* : close hihat
+– : open hihat
+. : rest
+E.g. d = Drums('xo-*', [1/8, 1/32])
+
+4.6 While running the program modify drums beat and pitch.
+E.g. d = Drums('xo-*', [1/8, 1/32]).pitch(0.1) -> d = Drums('xo', 1/4).pitch(1.1)
+
+***Send ✅ in our Zoom chat when you finished your all experiments and would like to move further.

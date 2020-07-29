@@ -1,0 +1,27 @@
+Sonic Pi Task 2
+
+2.1 Run this loop:
+loop do
+  play 60
+end
+
+Why do you get an error? Write your answer in our Zoom chat.
+
+
+2.2. Run any melody from Task 1 in live_loop and while running the program change octave and synthesizer:
+live_loop :melody do
+  use_octave -1
+  play 60, amp: 0.2
+  sleep 1
+end
+
+
+2.3. While running melody add Drums using live_loop. Do not forget to sync new live loop with previously named live_loop.
+
+E.g.
+live_loop :drums, sync: :melody do
+  sample :drum_bass_soft
+  sleep 1
+end
+
+***Send ✅ in our Zoom chat when you finished your all experiments and would like to move further.
